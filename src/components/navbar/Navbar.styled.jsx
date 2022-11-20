@@ -5,6 +5,8 @@ export const NavbarStyle = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: lightblue;
+  height: 8rem;
 `;
 
 export const NavbarLink = styled(NavLink)`
@@ -12,7 +14,7 @@ export const NavbarLink = styled(NavLink)`
   text-decoration: none;
   color: black;
   &:hover {
-    color: red;
+    color: blue;
   }
 `;
 

@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Div = styled.div`
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  height: 100vh;
+`;
+
 export const Cards = styled.div`
   display: flex;
   align-items: center;
