@@ -8,4 +8,8 @@ const Div = styled.div`
   /* margin-top: 50%; */
 `;
 
+export const Link = styled.a`
+  font-size: 3rem;
+  color: ${({ blue }) => blue || "#171515"};
+`;
 export default Div;
