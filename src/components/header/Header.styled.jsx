@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const HeaderStyle = styled.header`
-  padding-top: 1rem;
+  padding-top: 2rem;
   text-align: center;
+  /* height: 100%; */
 `;
 
 export const FormStyle = styled.div`

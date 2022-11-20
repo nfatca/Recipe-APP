@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Div = styled.div`
   background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-  height: 100vh;
+  /* height: 100vh; */
 `;
 
 export const Cards = styled.div`
@@ -12,7 +12,7 @@ export const Cards = styled.div`
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 20px;
-  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 `;
 
 const CardStyle = styled.div`

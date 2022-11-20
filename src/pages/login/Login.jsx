@@ -48,13 +48,13 @@ const Login = () => {
       <input
         type="email"
         name="username"
-        placeholder="Username"
+        placeholder="test@test.com"
         onChange={eventHandleChange}
       />
       <input
         type="password"
         name="password"
-        placeholder="Password"
+        placeholder="123"
         onChange={eventHandleChange}
       />
       <button onClick={checked}>Login</button>
